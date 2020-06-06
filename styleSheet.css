@@ -67,6 +67,9 @@
 	width: 50%;
 }
 
+.bg{
+    background-color: #f8f8fa !important;
+}
 
 
 
@@ -109,7 +112,15 @@ section{
     display: block !important;
     border-radius: 8px 8px;
 }
-
+.aglin-center{
+    text-align: -webkit-center;
+}
+.h-style{
+    text-align: center;
+    font-weight: bold;
+    color: darkslategray;
+    font-size: larger;
+}
 
 
 
@@ -157,4 +168,17 @@ section{
   }
 .copyrights{
     background-color: rgb(31, 30, 30);
+}
+.scroll-up{
+    color: rgba(223, 113, 39, 0.959) !important;
+    opacity: 1;
+    font-size: 31px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 50px;
+    bottom: 15px;
+    height: 50px; 
+    padding: 2px 15px; 
+    border-radius: 10px;
 }
